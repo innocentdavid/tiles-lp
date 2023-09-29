@@ -5,7 +5,7 @@ import Videos from './components/videos'
 
 export default function Home() {
   return (<>
-    <div className="absolute top-10 right-0 z-20 pointer-events-none hidden lg:block">
+    <div className="absolute top-10 right-0 lg:-right-24 xl:right-0 z-20 pointer-events-none hidden lg:block">
       <Image src="/hero-bg-desktop.png" alt="hero image" width={732} height={876} className="" />
       <div className="absolute top-0 left-0 w-full h-full bg-black/10"></div>
     </div>
@@ -46,7 +46,7 @@ export default function Home() {
       </header>
 
 
-      <section className='justify-center item-center flex mb-[96px] max-w-[720px] mt-[120px] md:mt-[160px] lg:mt-[200px] text-[100%] leading-[120%]'>
+      <section className='justify-center item-center flex mb-[96px] max-w-[720px] mt-[120px] md:mt-[160px] lg:mt-[250px] text-[100%] leading-[120%]'>
         <div className='items-center justify-center'>
           <h1 className='mb-[16px] text-[#f9f9f9e6] text-[40px] md:text-[48px] font-[600] leading-[120%] md:leading-[160%]'>
             Don`t just show your links,<br />
@@ -59,13 +59,13 @@ export default function Home() {
       </section>
 
       <section className='flex justify-center flex-col gap-[40px] '>
-        <div className='p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[450px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600' style={{
+        <div className='p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600' style={{
           backgroundImage: 'url(/links-bg.png)'
         }}>
           <div className="flex flex-col justify-start w-full">
             <img className='rounded-[16px] md:rounded-[24px] mb-[32px] w-[56px] md:w-[72px] h-[56px] md:h-[72px] shadow-[0_0_64px_#1878f1]' src="icon-link.svg" alt="icon" />
 
-            <h3 className='mt-2 md:mt-0 leading-[120%] font-[500] text-[#f9f9f9cc] text-[24px] mb-[12px]'>Links      </h3>
+            <h3 className='mt-2 md:mt-0 leading-[120%] font-[500] text-[#f9f9f9cc] text-[24px] mb-[12px]'>Links</h3>
             <p className='md:max-w-[440px] text-[18px] text-[#f9f9f9cc] mb-[8px] leading-[160%] font-[400] flex flex-wrap'>
               Link tiles comes with rich content preview so that <br />visitors can easily find what they are looking.
             </p>
@@ -75,7 +75,7 @@ export default function Home() {
       </section>
 
       <section className='flex flex-col md:flex-row gap-[40px] justify-center'>
-        <div className='mt-12 md:mt-0 item-start justify-start flex-row p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600 ' style={{
+        <div className='mt-12 item-start justify-start flex-row p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600 ' style={{
           backgroundImage: 'url(/Socials-bg.png)',
           backgroundPosition: 'bottom'
         }}>
@@ -90,7 +90,7 @@ export default function Home() {
 
         </div>
 
-        <div className='mt-12 md:mt-0 p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600 ' style={{
+        <div className='mt-12 p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600 ' style={{
           backgroundImage: 'url(/Locations-bg.png)'
         }}>
           <div className="flex flex-col justify-start text-[100%]">
@@ -105,7 +105,7 @@ export default function Home() {
       </section>
 
       <section className='flex flex-col md:flex-row gap-[40px] justify-center'>
-        <div className='mt-12 md:mt-0 item-start justify-start flex-row p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600 ' style={{
+        <div className='mt-12 item-start justify-start flex-row p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600 ' style={{
           backgroundImage: 'url(/Videos-bg.png)',
           backgroundPosition: 'bottom'
         }}>
@@ -120,7 +120,7 @@ export default function Home() {
 
         </div>
 
-        <div className='mt-12 md:mt-0 p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600 ' style={{
+        <div className='mt-12 p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600 ' style={{
           backgroundImage: 'url(/Images-bg.png)'
         }}>
           <div className="flex flex-col justify-start text-[100%]">
@@ -135,7 +135,7 @@ export default function Home() {
       </section>
 
       <section className='flex flex-col md:flex-row gap-[40px] justify-center'>
-        <div className='mt-12 md:mt-0 item-start justify-start flex-row p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600 ' style={{
+        <div className='mt-12 item-start justify-start flex-row p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600 ' style={{
           backgroundImage: 'url(/Music-bg.png)',
           backgroundPosition: 'bottom'
         }}>
@@ -150,7 +150,7 @@ export default function Home() {
 
         </div>
 
-        <div className='mt-12 md:mt-0 p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600 ' style={{
+        <div className='mt-12 p-6 md:p-[64px] flex min-h-[450px] w-full md:min-h-[548px] bg-contain bg-[#030c08] bg-bottom bg-no-repeat rounded-[40px] border-solid border-slate-600 ' style={{
           backgroundImage: 'url(/Header-bg.png)'
         }}>
           <div className="flex flex-col justify-start text-[100%]">
@@ -177,9 +177,9 @@ export default function Home() {
         <Videos />
       </section>
 
-      <section className="pt-[160px] md:pr-[32px] m-auto">
+      <section className="pt-[160px]">
         <div className="mb-[80px] text-[100%] ">
-          <div className="mb-[80px]">
+          <div className="mb-[80px] md:pr-[32px]">
             <h2 className='mb-[16px] leading-[120%] font-[500] text-[40px] md:text-[48px] text-[#f9f9f9e6]'>
               Grab your link today!
             </h2>
@@ -195,7 +195,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="pt-[100px] md:pt-[160px] md:pr-[32px] m-auto mb-6">
+      <footer className="pt-[100px] md:pt-[160px] mb-6">
         <nav className="flex justify-between items-center">
           <a href="flex">
             <Image src="/logo.png" width={77} height={24} alt="logo" />
@@ -208,7 +208,7 @@ export default function Home() {
             <a href=""><button className="text-sm md:text-[16px] font-[400] border-none text-[#ffffff80] cursor-pointer w-full rounded-[100px] transition-all hover:text-white px-1 md:px-3 py-2">
               Tutorials
             </button></a>
-            <a href=""><button className="text-sm md:text-[16px] font-[600] border-none text-[#ffffff80] cursor-pointer w-full rounded-[100px] transition-all bg-[#ffffff0d] hover:bg-[#ffffff1a] px-1 md:px-3 py-2">
+            <a href=""><button className="text-sm md:text-[16px] font-[600] border-none text-[#ffffff80] cursor-pointer w-full rounded-[100px] transition-all bg-[#ffffff0d] hover:bg-[#ffffff1a] px-3 py-1 md:py-2">
               Log In
             </button></a>
           </div>
