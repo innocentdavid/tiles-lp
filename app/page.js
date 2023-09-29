@@ -13,7 +13,7 @@ export default function Home() {
     <main className='bg-black max-w-[1200px] mx-auto px-6 md:px-8 pt-6 justify-center items-center relative'>
       <header className="lg:h-screen overflow-y-hidden">
         <nav className="flex justify-between items-center">
-          <a href="flex">
+          <a href="">
             <Image src="/logo.png" width={77} height={24} alt="logo" />
           </a>
 
@@ -201,11 +201,11 @@ export default function Home() {
             <Image src="/logo.png" width={77} height={24} alt="logo" />
           </a>
 
-          <div className='flex items-center md:gap-2'>
-            <a href=""><button className="text-sm md:text-[16px] font-[400] border-none text-[#ffffff80] cursor-pointer w-full rounded-[100px] transition-all bg-[#ffffff0d] hover:text-white px-1 md:px-3 py-2">
+          <div className='flex items-center gap-1 md:gap-2'>
+            <a href=""><button className="text-sm md:text-[16px] font-[400] border-none text-[#ffffff80] cursor-pointer w-full rounded-[100px] transition-all hover:text-white px-1 md:px-3 py-2">
               Contact
             </button></a>
-            <a href=""><button className="text-sm md:text-[16px] font-[400] border-none text-[#ffffff80] cursor-pointer w-full rounded-[100px] transition-all bg-[#ffffff0d] hover:text-white px-1 md:px-3 py-2">
+            <a href=""><button className="text-sm md:text-[16px] font-[400] border-none text-[#ffffff80] cursor-pointer w-full rounded-[100px] transition-all hover:text-white px-1 md:px-3 py-2">
               Tutorials
             </button></a>
             <a href=""><button className="text-sm md:text-[16px] font-[600] border-none text-[#ffffff80] cursor-pointer w-full rounded-[100px] transition-all bg-[#ffffff0d] hover:bg-[#ffffff1a] px-1 md:px-3 py-2">
